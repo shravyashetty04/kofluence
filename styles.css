@@ -446,7 +446,7 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
   .case-grid { grid-template-columns: 1fr; }
   .case-card { min-height: 320px; }
   .why-bento { grid-template-columns: 1fr; }
-  .wb-photo, .wb-photo2 { min-height: 200px; }
+  .wb-photo, .wb-photo2 { grid-column: 1; min-height: 320px; }
   .creator-grid { grid-template-columns: 1fr 1fr; margin-top: 3.5rem; }
   .footer-bottom { flex-direction: column; gap: 1rem; text-align: center; }
   
