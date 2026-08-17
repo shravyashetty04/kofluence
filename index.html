@@ -15,18 +15,18 @@
   <!-- ================= NAV ================= -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
-      <a href="https://www.kofluence.com" class="nav-logo-wrap" id="nav-logo">
+      <a href="https://www.kofluence.com" class="nav-logo-wrap" id="nav-logo" aria-label="Kofluence Home">
         <img src="https://www.kofluence.com/wp-content/uploads/2025/03/kof-logo.png" alt="Kofluence Logo" class="logo-img" />
         <span class="logo-text"><span class="logo-k">K</span>ofluence</span>
       </a>
       <ul class="nav-links" id="nav-links">
         <li><a href="#work">Work</a></li>
-        <li><a href="#solutions">Solutions</a></li>
+        <li><a href="#why">Solutions</a></li>
         <li><a href="#creators">Creators</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="https://www.kofluence.com/about-us/">About</a></li>
       </ul>
-      <a href="#campaign-builder" class="btn-outline nav-cta" id="nav-cta">Start a Campaign</a>
-      <button class="hamburger" id="hamburger" aria-label="Menu">
+      <a href="#campaign-builder" class="btn-outline nav-cta" id="nav-cta" aria-label="Start a Campaign">Start a Campaign</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle Menu">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -47,11 +47,11 @@
         Leading influencer marketing agency in India with 750K+ creators network. Drive 10X better reach with AI-powered, measurable creator campaigns.
       </p>
       <div class="hero-actions">
-        <a href="#campaign-builder" class="btn-primary magnetic" id="hero-cta1">
+        <a href="#campaign-builder" class="btn-primary magnetic" id="hero-cta1" aria-label="Start a Campaign">
           Start a Campaign
           <span class="btn-arrow">→</span>
         </a>
-        <a href="#work" class="btn-ghost" id="hero-cta2">Explore Our Work</a>
+        <a href="#work" class="btn-ghost" id="hero-cta2" aria-label="Explore Our Work">Explore Our Work</a>
       </div>
     </div>
 
@@ -106,8 +106,22 @@
         <span class="brand-item">ACT Fibernet</span><span class="brand-dot">·</span>
       </div>
     </div>
+    
+    <!-- LIVE CAMPAIGN TICKER -->
+    <div class="live-ticker-wrap reveal reveal-delay-1">
+        <div class="live-ticker">
+            <span class="lt-item"><span class="lt-dot"></span> <strong>2 mins ago:</strong> Beauty brand matched with 45 Macro Creators</span>
+            <span class="lt-item"><span class="lt-dot"></span> <strong>5 mins ago:</strong> Tech campaign went live across Instagram & YouTube</span>
+            <span class="lt-item"><span class="lt-dot"></span> <strong>12 mins ago:</strong> D2C brand approved content for 120 Nano Creators</span>
+            <!-- duplicate for infinite loop -->
+            <span class="lt-item"><span class="lt-dot"></span> <strong>2 mins ago:</strong> Beauty brand matched with 45 Macro Creators</span>
+            <span class="lt-item"><span class="lt-dot"></span> <strong>5 mins ago:</strong> Tech campaign went live across Instagram & YouTube</span>
+            <span class="lt-item"><span class="lt-dot"></span> <strong>12 mins ago:</strong> D2C brand approved content for 120 Nano Creators</span>
+        </div>
+    </div>
+
     <div class="brand-collection-img reveal reveal-delay-2">
-      <img src="https://www.kofluence.com/wp-content/uploads/2023/04/brand-collection.png" alt="Brands that work with Kofluence" />
+      <img src="https://www.kofluence.com/wp-content/uploads/2023/04/brand-collection.png" alt="Brands that work with Kofluence" loading="lazy" />
     </div>
   </section>
 
@@ -147,11 +161,11 @@
         <!-- Left Images -->
         <div class="path-images reveal">
           <div class="path-img-play">
-            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=600" alt="Event" />
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=600" alt="Creator Event" loading="lazy" />
             <div class="play-btn">▶</div>
           </div>
           <div class="path-img" style="transform: translateY(2rem);">
-            <img src="https://images.unsplash.com/photo-1551818255-e6e10975bc17?auto=format&fit=crop&q=80&w=600" alt="Creator" />
+            <img src="https://images.unsplash.com/photo-1551818255-e6e10975bc17?auto=format&fit=crop&q=80&w=600" alt="Content Creation" loading="lazy" />
           </div>
         </div>
 
@@ -212,55 +226,54 @@
                 <span class="service-name" style="margin-bottom: 0.3rem;">Full Stack Integrations</span>
                 <p style="font-size: 0.8rem; color: var(--gray); font-family: var(--font-body); max-width: 300px;">Connect all of your marketing tools and platforms to streamline your workflow and optimize your campaigns.</p>
               </div>
-              <a href="#" class="service-explore">Explore →</a>
+              <a href="#" class="service-explore" aria-label="Explore Full Stack Integrations">Explore →</a>
             </li>
             <li class="service-item active">
               <div style="display:flex; flex-direction: column;">
                 <span class="service-name" style="margin-bottom: 0.3rem;">750K+ Creator Network</span>
                 <p style="font-size: 0.8rem; color: var(--gray); font-family: var(--font-body); max-width: 300px;">Experience 10X better reach by tapping into our extensive network of verified creators across every category.</p>
               </div>
-              <a href="#" class="service-explore">Explore →</a>
+              <a href="#" class="service-explore" aria-label="Explore Creator Network">Explore →</a>
             </li>
             <li class="service-item">
               <div style="display:flex; flex-direction: column;">
                 <span class="service-name" style="margin-bottom: 0.3rem;">Deep Profiling</span>
                 <p style="font-size: 0.8rem; color: var(--gray); font-family: var(--font-body); max-width: 300px;">Enabling effective creator discovery with our ML-focused search based on creator persona and audience demography.</p>
               </div>
-              <a href="#" class="service-explore">Explore →</a>
+              <a href="#" class="service-explore" aria-label="Explore Deep Profiling">Explore →</a>
             </li>
             <li class="service-item">
               <div style="display:flex; flex-direction: column;">
                 <span class="service-name" style="margin-bottom: 0.3rem;">AI / ML Algorithm</span>
                 <p style="font-size: 0.8rem; color: var(--gray); font-family: var(--font-body); max-width: 300px;">Drive real results with targeted campaigns by leveraging Kofluence's proprietary AI/ML models designed for scale.</p>
               </div>
-              <a href="#" class="service-explore">Explore →</a>
+              <a href="#" class="service-explore" aria-label="Explore AI Algorithm">Explore →</a>
             </li>
              <li class="service-item">
               <div style="display:flex; flex-direction: column;">
                 <span class="service-name" style="margin-bottom: 0.3rem;">Automated Data-Driven Decisions</span>
                 <p style="font-size: 0.8rem; color: var(--gray); font-family: var(--font-body); max-width: 300px;">Embrace automated data-driven decision making based on actionable insights for more optimised campaigns.</p>
               </div>
-              <a href="#" class="service-explore">Explore →</a>
+              <a href="#" class="service-explore" aria-label="Explore Automated Decisions">Explore →</a>
             </li>
              <li class="service-item">
               <div style="display:flex; flex-direction: column;">
                 <span class="service-name" style="margin-bottom: 0.3rem;">Proprietary Risk & Fraud Detection</span>
                 <p style="font-size: 0.8rem; color: var(--gray); font-family: var(--font-body); max-width: 300px;">Industry best practices for data privacy, fraud protection and risk management.</p>
               </div>
-              <a href="#" class="service-explore">Explore →</a>
+              <a href="#" class="service-explore" aria-label="Explore Fraud Detection">Explore →</a>
             </li>
           </ul>
         </div>
 
         <div class="services-card-col reveal reveal-delay-2" style="transform: translateY(-4rem); position: relative; z-index: 5;">
-            <!-- Floating Service Card matching reference -->
             <div style="background: var(--lime); padding: 1rem; border-radius: var(--radius-xl); position: relative; text-align: center;">
                 <div style="position: absolute; right: 1.5rem; top: 50%; transform: translateY(-50%); background: #000; color: #fff; padding: 0.5rem 1rem; border-radius: 100px; font-family: var(--font); font-size: 0.8rem; font-weight: 700; z-index: 10;">Explore →</div>
-                <img src="https://www.kofluence.com/wp-content/uploads/2023/03/sparkles_2728-1-1.png" alt="Icon" style="width: 100px; height: 100px; object-fit: contain; transform: rotate(-5deg) translateY(20px) translateX(20px); filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));" />
+                <img src="https://www.kofluence.com/wp-content/uploads/2023/03/sparkles_2728-1-1.png" alt="Sparkles Icon" style="width: 100px; height: 100px; object-fit: contain; transform: rotate(-5deg) translateY(20px) translateX(20px); filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));" loading="lazy" />
             </div>
             
             <div style="background: var(--teal); padding: 1rem; border-radius: var(--radius-xl); position: relative; text-align: center; margin-top: 2rem;">
-                <img src="https://www.kofluence.com/wp-content/uploads/2023/03/exploding-head_1f92f-1.png" alt="Icon" style="width: 100px; height: 100px; object-fit: contain; transform: rotate(5deg) translateY(20px) translateX(-20px); filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));" />
+                <img src="https://www.kofluence.com/wp-content/uploads/2023/03/exploding-head_1f92f-1.png" alt="Mind Blown Icon" style="width: 100px; height: 100px; object-fit: contain; transform: rotate(5deg) translateY(20px) translateX(-20px); filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2));" loading="lazy" />
             </div>
         </div>
       </div>
@@ -328,6 +341,11 @@
           </div>
         </div>
       </div>
+      
+      <!-- Sticky CTA inside Bento section -->
+      <div class="reveal reveal-delay-2" style="text-align: center; margin-top: 3rem;">
+        <a href="#campaign-builder" class="btn-primary" aria-label="Start a Campaign">Ready to see your match score? Start a Campaign →</a>
+      </div>
     </div>
   </section>
 
@@ -347,12 +365,12 @@
 
       <div class="case-grid reveal reveal-delay-1">
         <!-- TITAN -->
-        <div class="case-card case-large" id="case-titan">
+        <div class="case-card" id="case-titan">
           <div class="case-bg-real" style="background-image: url('https://www.kofluence.com/wp-content/uploads/2023/10/Titan-influencer-marketing-case-study-1-1024x1024.webp')"></div>
-          <div class="case-overlay" style="background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 60%);"></div>
+          <div class="case-overlay"></div>
           
           <div class="case-logo-badge">
-            <img src="https://www.kofluence.com/wp-content/uploads/2023/10/TITAN-290x300.png" alt="Titan" />
+            <img src="https://www.kofluence.com/wp-content/uploads/2023/10/TITAN-290x300.png" alt="Titan" loading="lazy" />
           </div>
           
           <div class="case-content">
@@ -361,13 +379,16 @@
               <span class="case-num">11M+</span>
               <span class="case-metric-label">REACH</span>
             </div>
-            <div class="case-extra-stats">
-              <span class="case-extra-item"><span class="cei-val">13M+</span><span class="cei-key">Impressions</span></span>
-              <span class="case-extra-item"><span class="cei-val">900K+</span><span class="cei-key">Engagement</span></span>
-            </div>
-            <div class="case-tags">
-              <span class="case-tag">Amplified TVC via creators</span>
-              <span class="case-tag">Lifestyle · Luxury</span>
+            <!-- Expanded info on hover -->
+            <div class="case-hover-info">
+                <div class="case-extra-stats">
+                  <span class="case-extra-item"><span class="cei-val">13M+</span><span class="cei-key">Impressions</span></span>
+                  <span class="case-extra-item"><span class="cei-val">900K+</span><span class="cei-key">Engagement</span></span>
+                </div>
+                <div class="case-tags">
+                  <span class="case-tag">Amplified TVC via creators</span>
+                  <span class="case-tag">Lifestyle · Luxury</span>
+                </div>
             </div>
           </div>
         </div>
@@ -375,10 +396,10 @@
         <!-- SUN PHARMA -->
         <div class="case-card" id="case-sunpharma">
           <div class="case-bg-real" style="background-image: url('https://www.kofluence.com/wp-content/uploads/2023/10/Sun-Pharma-influencer-marketing-case-study.png')"></div>
-          <div class="case-overlay" style="background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 60%);"></div>
+          <div class="case-overlay"></div>
           
           <div class="case-logo-badge">
-            <img src="https://www.kofluence.com/wp-content/uploads/2023/10/Sun-Pharma-300x242.webp" alt="Sun Pharma" />
+            <img src="https://www.kofluence.com/wp-content/uploads/2023/10/Sun-Pharma-300x242.webp" alt="Sun Pharma" loading="lazy" />
           </div>
 
           <div class="case-content">
@@ -387,8 +408,13 @@
               <span class="case-num">14M+</span>
               <span class="case-metric-label">IMPRESSIONS</span>
             </div>
-            <div class="case-tags">
-              <span class="case-tag">Health · Pharma</span>
+            <div class="case-hover-info">
+                <div class="case-extra-stats">
+                  <span class="case-extra-item"><span class="cei-val">50+</span><span class="cei-key">Creators</span></span>
+                </div>
+                <div class="case-tags">
+                  <span class="case-tag">Health · Pharma</span>
+                </div>
             </div>
           </div>
         </div>
@@ -396,10 +422,10 @@
         <!-- GO COLORS -->
         <div class="case-card" id="case-gocolors">
           <div class="case-bg-real" style="background-image: url('https://www.kofluence.com/wp-content/uploads/2023/10/Go-Colors-influencer-marketing-case-study.png')"></div>
-          <div class="case-overlay" style="background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, transparent 60%);"></div>
+          <div class="case-overlay"></div>
            
            <div class="case-logo-badge">
-            <img src="https://www.kofluence.com/wp-content/uploads/2023/10/Go-Colors.png" alt="Go Colors" />
+            <img src="https://www.kofluence.com/wp-content/uploads/2023/10/Go-Colors.png" alt="Go Colors" loading="lazy" />
           </div>
 
           <div class="case-content">
@@ -408,36 +434,17 @@
               <span class="case-num">18M+</span>
               <span class="case-metric-label">REACH</span>
             </div>
-            <div class="case-tags">
-              <span class="case-tag">Fashion · D2C</span>
+            <div class="case-hover-info">
+                <div class="case-tags">
+                  <span class="case-tag">Fashion · D2C</span>
+                </div>
             </div>
           </div>
         </div>
         
-        <!-- ACT FIBERNET -->
-        <div class="case-card" id="case-act" style="grid-column: span 2;">
-          <div class="case-bg-real" style="background-image: url('https://www.kofluence.com/wp-content/uploads/2023/10/ACT-Fibernet-influencer-marketing-case-study-1-1024x768.png'); background-position: top;"></div>
-          <div class="case-overlay" style="background: linear-gradient(to right, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, transparent 100%);"></div>
-           
-           <div class="case-logo-badge">
-            <img src="https://www.kofluence.com/wp-content/uploads/2023/10/ACT-Fibernet.png" alt="ACT Fibernet" />
-          </div>
-
-          <div class="case-content" style="bottom: auto; top: 50%; transform: translateY(-50%); width: 60%;">
-            <div class="case-brand">ACT FIBERNET</div>
-            <div class="case-metric">
-              <span class="case-num">1.6M+</span>
-              <span class="case-metric-label">VIEWS</span>
-            </div>
-            <div class="case-tags">
-              <span class="case-tag">Tech · D2C</span>
-            </div>
-          </div>
-        </div>
-
       </div>
       <div class="work-cta-wrap reveal reveal-delay-2">
-        <a href="https://www.kofluence.com/case-study/" target="_blank" class="btn-outline">View All Case Studies <span>→</span></a>
+        <a href="https://www.kofluence.com/case-study/" target="_blank" class="btn-outline" aria-label="View All Case Studies">View All Case Studies <span>→</span></a>
       </div>
     </div>
   </section>
@@ -462,9 +469,11 @@
 
       <div class="creator-grid reveal reveal-delay-2">
         <div class="creator-card">
-          <div class="creator-img" style="background: url('https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500') center/cover;"></div>
-          <div class="creator-info">
-            <div class="creator-top"><span class="creator-name">Priya Sharma</span><span class="creator-verified">✓</span></div>
+          <div class="creator-profile-wrap">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200" alt="Priya Sharma" loading="lazy" />
+          </div>
+          <div class="creator-info" style="text-align: center; padding-top: 3.5rem;">
+            <div class="creator-top" style="justify-content: center;"><span class="creator-name">Priya Sharma</span><span class="creator-verified">✓</span></div>
             <span class="creator-handle">@priya.styles</span>
             <span class="creator-cat beauty">Beauty</span>
             <div class="creator-stats">
@@ -475,9 +484,11 @@
           </div>
         </div>
         <div class="creator-card">
-          <div class="creator-img" style="background: url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=500') center/cover;"></div>
-          <div class="creator-info">
-            <div class="creator-top"><span class="creator-name">Arjun Mehta</span><span class="creator-verified">✓</span></div>
+          <div class="creator-profile-wrap">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200" alt="Arjun Mehta" loading="lazy" />
+          </div>
+          <div class="creator-info" style="text-align: center; padding-top: 3.5rem;">
+            <div class="creator-top" style="justify-content: center;"><span class="creator-name">Arjun Mehta</span><span class="creator-verified">✓</span></div>
             <span class="creator-handle">@techbro.in</span>
             <span class="creator-cat tech">Tech</span>
             <div class="creator-stats">
@@ -488,9 +499,11 @@
           </div>
         </div>
         <div class="creator-card">
-          <div class="creator-img" style="background: url('https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=500') center/cover;"></div>
-          <div class="creator-info">
-            <div class="creator-top"><span class="creator-name">Riya Desai</span><span class="creator-verified">✓</span></div>
+          <div class="creator-profile-wrap">
+             <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=200" alt="Riya Desai" loading="lazy" />
+          </div>
+          <div class="creator-info" style="text-align: center; padding-top: 3.5rem;">
+            <div class="creator-top" style="justify-content: center;"><span class="creator-name">Riya Desai</span><span class="creator-verified">✓</span></div>
             <span class="creator-handle">@riya.fashion</span>
             <span class="creator-cat fashion">Fashion</span>
             <div class="creator-stats">
@@ -514,34 +527,34 @@
 
       <div class="backers-grid reveal reveal-delay-1">
         <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Nikhil-kamath.png" alt="Nikhil Kamath" /></div>
+          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Nikhil-kamath.png" alt="Nikhil Kamath" loading="lazy" /></div>
           <h3>Nikhil Kamath</h3><p>Co-founder<br />Zerodha &amp; True Beacon</p>
         </div>
         <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/karan-johar.png" alt="Karan Johar" /></div>
+          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/karan-johar.png" alt="Karan Johar" loading="lazy" /></div>
           <h3>Karan Johar</h3><p>Filmmaker &amp; TV Personality</p>
         </div>
         <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/kunal-shah.png" alt="Kunal Shah" /></div>
+          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/kunal-shah.png" alt="Kunal Shah" loading="lazy" /></div>
           <h3>Kunal Shah</h3><p>Founder<br />CRED</p>
         </div>
         <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Sujeet-Kumar.png" alt="Sujeet Kumar" /></div>
+          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Sujeet-Kumar.png" alt="Sujeet Kumar" loading="lazy" /></div>
           <h3>Sujeet Kumar</h3><p>Co-founder<br />Udaan</p>
         </div>
         <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Aprameya-Radhakrishna.png" alt="Aprameya Radhakrishna" /></div>
+          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Aprameya-Radhakrishna.png" alt="Aprameya Radhakrishna" loading="lazy" /></div>
           <h3>Aprameya Radhakrishna</h3><p>Co-founder<br />Koo</p>
         </div>
         <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/10/Apoorva-Mehta.png.webp" alt="Apoorva Mehta" /></div>
+          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/10/Apoorva-Mehta.png.webp" alt="Apoorva Mehta" loading="lazy" /></div>
           <h3>Apoorva Mehta</h3><p>CEO<br />Dharma Productions</p>
         </div>
       </div>
 
       <div class="backer-logos reveal reveal-delay-2">
-        <img src="https://www.kofluence.com/wp-content/uploads/2023/03/unsparks.svg" alt="Unsparks" class="backer-logo-img" />
-        <img src="https://www.kofluence.com/wp-content/uploads/2024/02/nazara-technologies-logo.png" alt="Nazara Technologies" class="backer-logo-img" />
+        <img src="https://www.kofluence.com/wp-content/uploads/2023/03/unsparks.svg" alt="Unsparks" class="backer-logo-img" loading="lazy" />
+        <img src="https://www.kofluence.com/wp-content/uploads/2024/02/nazara-technologies-logo.png" alt="Nazara Technologies" class="backer-logo-img" loading="lazy" />
       </div>
     </div>
   </section>
@@ -554,8 +567,8 @@
         <h2 class="section-title" style="font-size: 2.5rem;">Our Key <span class="accent">Milestones</span></h2>
       </div>
       <div class="milestones-img reveal reveal-delay-1">
-        <img src="https://www.kofluence.com/wp-content/uploads/2025/08/Our-Key-Milestones-web-view-1.svg" alt="Milestones" class="milestones-desktop" />
-        <img src="https://www.kofluence.com/wp-content/uploads/2025/08/Our-Key-Milestones-mobile-view-02-02-1.svg" alt="Milestones" class="milestones-mobile" />
+        <img src="https://www.kofluence.com/wp-content/uploads/2025/08/Our-Key-Milestones-web-view-1.svg" alt="Milestones Roadmap" class="milestones-desktop" loading="lazy" />
+        <img src="https://www.kofluence.com/wp-content/uploads/2025/08/Our-Key-Milestones-mobile-view-02-02-1.svg" alt="Milestones Roadmap Mobile" class="milestones-mobile" loading="lazy" />
       </div>
     </div>
   </section>
@@ -574,7 +587,7 @@
       </h2>
       <p class="finale-sub" style="color: var(--black);">Join 500+ brands already turning influence into impact with Kofluence.</p>
       <div class="finale-actions">
-        <a href="https://www.kofluence.com/contact/" class="btn-primary btn-large magnetic" style="background: #000; color: #fff;" id="finale-cta">
+        <a href="https://www.kofluence.com/contact/" class="btn-primary btn-large magnetic" style="background: #000; color: #fff;" id="finale-cta" aria-label="Book a Demo">
           Book a Demo
           <span class="btn-arrow" style="background: rgba(255,255,255,0.2);">→</span>
         </a>
@@ -586,8 +599,8 @@
   <footer class="footer" id="footer">
     <div class="footer-container">
       <div class="footer-brand">
-        <a href="https://www.kofluence.com" class="footer-logo-wrap">
-          <img src="https://www.kofluence.com/wp-content/uploads/2025/03/kof-logo.png" alt="Kofluence" class="footer-logo-img" style="filter: brightness(0) invert(1);" />
+        <a href="https://www.kofluence.com" class="footer-logo-wrap" aria-label="Kofluence Home">
+          <img src="https://www.kofluence.com/wp-content/uploads/2025/03/kof-logo.png" alt="Kofluence Logo" class="footer-logo-img" style="filter: brightness(0) invert(1);" loading="lazy" />
           <span class="footer-logo-text">Kofluence</span>
         </a>
         <p class="footer-tagline">AI-powered creator marketing.<br />Where brands meet culture.<br /><br />
@@ -614,6 +627,12 @@
           <a href="https://www.kofluence.com/case-study/">Case Studies</a>
           <a href="https://www.kofluence.com/careers/">Careers</a>
           <a href="https://www.kofluence.com/contact/">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Developers</h4>
+          <a href="#">API Documentation</a>
+          <a href="#">Webhooks</a>
+          <a href="#">System Status</a>
         </div>
       </div>
     </div>
@@ -652,7 +671,8 @@
       // Path steps interaction
       const pathSteps = document.querySelectorAll('.path-step');
       pathSteps.forEach(step => {
-        step.addEventListener('click', () => {
+        // Add hover effect logic
+        step.addEventListener('mouseenter', () => {
           pathSteps.forEach(s => s.classList.remove('active'));
           step.classList.add('active');
         });
@@ -661,10 +681,25 @@
       // Services interaction
       const serviceItems = document.querySelectorAll('.service-item');
       serviceItems.forEach(item => {
-          item.addEventListener('click', () => {
+          item.addEventListener('mouseenter', () => {
               serviceItems.forEach(s => s.classList.remove('active'));
               item.classList.add('active');
           });
+      });
+      
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            const targetId = this.getAttribute('href');
+            if(targetId === '#') return;
+            const target = document.querySelector(targetId);
+            if(target) {
+                target.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        });
       });
     });
   </script>
