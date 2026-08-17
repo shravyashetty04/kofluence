@@ -190,52 +190,154 @@
   <!-- ================= PATH (How it works) ================= -->
   <section class="path" id="solutions">
     <div class="section-container">
-      <div class="path-grid">
-        <!-- Left Images -->
-        <div class="path-images reveal">
-          <div class="path-img-play">
-            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=600" alt="Creator Event" loading="lazy" />
-            <div class="play-btn">▶</div>
-          </div>
-          <div class="path-img" style="transform: translateY(2rem);">
-            <img src="https://images.unsplash.com/photo-1551818255-e6e10975bc17?auto=format&fit=crop&q=80&w=600" alt="Content Creation" loading="lazy" />
+      <div class="section-eyebrow lime reveal">How It Works</div>
+      <h2 class="section-title reveal" style="font-size: 2.8rem; margin-bottom: 3rem;">From Brief to<br/>Breakthrough</h2>
+      
+      <div class="path-scroll-grid">
+        <!-- Sticky Mockup Column -->
+        <div class="path-sticky-col reveal">
+          <div class="mock-ui-container">
+             
+             <!-- Discover Mockup -->
+             <div class="mock-ui ui-discover active" id="ui-1">
+               <div class="mock-header">
+                 <div class="mock-dots"><span class="md-red"></span><span class="md-yellow"></span><span class="md-green"></span></div>
+                 <div class="mock-title">Creator Search</div>
+               </div>
+               <div class="mock-body">
+                 <div class="mock-search-bar">🔍 Search niche, location, audience...</div>
+                 <div class="mock-pills">
+                   <span class="mock-pill active">Beauty</span>
+                   <span class="mock-pill">India</span>
+                   <span class="mock-pill">Gen Z</span>
+                 </div>
+                 <div class="mock-table">
+                   <div class="mock-th"><span>Creator</span><span>Match</span></div>
+                   <div class="mock-tr">
+                     <div class="mtr-creator">
+                       <div class="mtr-avatar"><img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=100" alt="Avatar" /></div>
+                       <span>@riya.fashion</span>
+                     </div>
+                     <div class="mtr-match">96%</div>
+                   </div>
+                   <div class="mock-tr">
+                     <div class="mtr-creator">
+                       <div class="mtr-avatar"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100" alt="Avatar" /></div>
+                       <span>@stylewithme</span>
+                     </div>
+                     <div class="mtr-match">94%</div>
+                   </div>
+                   <div class="mock-tr">
+                     <div class="mtr-creator">
+                       <div class="mtr-avatar"><img src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=100" alt="Avatar" /></div>
+                       <span>@beautybyananya</span>
+                     </div>
+                     <div class="mtr-match">91%</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+
+             <!-- Match Mockup -->
+             <div class="mock-ui ui-match" id="ui-2">
+               <div class="mock-header">
+                 <div class="mock-dots"><span class="md-red"></span><span class="md-yellow"></span><span class="md-green"></span></div>
+                 <div class="mock-title">Profile Evaluation</div>
+               </div>
+               <div class="mock-body" style="text-align:center;">
+                 <div class="mock-score-ring" style="width: 140px; height: 140px; margin: 0 auto 1.5rem;">
+                   <svg viewBox="0 0 120 120" style="width:100%; height:100%; transform: rotate(-90deg);">
+                     <circle cx="60" cy="60" r="50" fill="none" stroke="var(--border)" stroke-width="8" />
+                     <circle cx="60" cy="60" r="50" fill="none" stroke="var(--lime)" stroke-width="8" stroke-dasharray="314" stroke-dashoffset="12" stroke-linecap="round" />
+                   </svg>
+                   <div class="mock-score-val">96%</div>
+                   <div class="mock-score-label">AI MATCH</div>
+                 </div>
+                 <div class="mock-bar-row">
+                   <span>Audience Fit</span>
+                   <div class="mock-bar-wrap"><div class="mock-bar" style="width: 98%;"></div></div>
+                 </div>
+                 <div class="mock-bar-row">
+                   <span>Brand Safety</span>
+                   <div class="mock-bar-wrap"><div class="mock-bar" style="width: 100%;"></div></div>
+                 </div>
+               </div>
+             </div>
+
+             <!-- Activate Mockup -->
+             <div class="mock-ui ui-activate" id="ui-3">
+               <div class="mock-header">
+                 <div class="mock-dots"><span class="md-red"></span><span class="md-yellow"></span><span class="md-green"></span></div>
+                 <div class="mock-title">Campaign Workflow</div>
+               </div>
+               <div class="mock-body">
+                 <div class="mock-card">
+                    <div style="font-size: 0.7rem; color: var(--gray); font-weight:700; letter-spacing:0.05em; margin-bottom:0.2rem;">CAMPAIGN</div>
+                    <div style="font-weight: 800; font-size:1.1rem;">Summer Launch 2026</div>
+                 </div>
+                 <div class="mock-timeline">
+                   <div class="mtl-item done"><div class="mtl-dot"></div> Brief Sent</div>
+                   <div class="mtl-item done"><div class="mtl-dot"></div> Creator Accepted</div>
+                   <div class="mtl-item active"><div class="mtl-dot"></div> Content Review</div>
+                   <div class="mtl-item"><div class="mtl-dot"></div> Published</div>
+                 </div>
+                 <button class="mock-btn" style="margin-top: auto;">Approve Content</button>
+               </div>
+             </div>
+
+             <!-- Measure Mockup -->
+             <div class="mock-ui ui-measure" id="ui-4">
+               <div class="mock-header">
+                 <div class="mock-dots"><span class="md-red"></span><span class="md-yellow"></span><span class="md-green"></span></div>
+                 <div class="mock-title">Live Performance</div>
+               </div>
+               <div class="mock-body">
+                 <div class="mock-grid">
+                   <div class="mock-stat-box">
+                      <span class="msb-val">1.2M</span>
+                      <span class="msb-key">Reach</span>
+                   </div>
+                   <div class="mock-stat-box">
+                      <span class="msb-val">8.5%</span>
+                      <span class="msb-key">Engagement</span>
+                   </div>
+                 </div>
+                 <div class="mock-chart" style="margin-top:auto;">
+                    <div class="mc-bar" style="height: 40%"></div>
+                    <div class="mc-bar" style="height: 60%"></div>
+                    <div class="mc-bar" style="height: 30%"></div>
+                    <div class="mc-bar" style="height: 80%"></div>
+                    <div class="mc-bar" style="height: 100%"></div>
+                    <div class="mc-bar" style="height: 70%"></div>
+                 </div>
+               </div>
+             </div>
+
           </div>
         </div>
 
-        <!-- Right Content -->
-        <div class="path-content reveal reveal-delay-1">
-          <div class="section-eyebrow lime">How It Works</div>
-          <h2 class="section-title" style="font-size: 2.8rem; margin-bottom: 2rem;">From Brief to<br/>Breakthrough</h2>
-          <div class="path-steps">
-            <div class="path-step active" id="ps-1">
-              <div class="step-num">01</div>
-              <div class="step-content">
-                <h3 class="step-title-text">DISCOVER</h3>
-                <p class="step-desc-text">AI scans 750K+ verified creators across Instagram, YouTube, and more — filtered by niche, language, audience demographics and brand affinity.</p>
-              </div>
-            </div>
-            <div class="path-step" id="ps-2">
-              <div class="step-num">02</div>
-              <div class="step-content">
-                <h3 class="step-title-text">MATCH</h3>
-                <p class="step-desc-text">Proprietary AI/ML models evaluate audience fit, engagement authenticity, content quality and fraud signals to surface the perfect creator match.</p>
-              </div>
-            </div>
-            <div class="path-step" id="ps-3">
-              <div class="step-num">03</div>
-              <div class="step-content">
-                <h3 class="step-title-text">ACTIVATE</h3>
-                <p class="step-desc-text">Streamlined onboarding, brief delivery, content approval and publishing — with full-stack integrations across all marketing tools and platforms.</p>
-              </div>
-            </div>
-            <div class="path-step" id="ps-4">
-              <div class="step-num">04</div>
-              <div class="step-content">
-                <h3 class="step-title-text">MEASURE</h3>
-                <p class="step-desc-text">Automated, data-driven decision making with real-time dashboards tracking impressions, reach, engagement, conversions and ROI.</p>
-              </div>
-            </div>
-          </div>
+        <!-- Scrolling Steps Column -->
+        <div class="path-scroll-col">
+           <div class="scroll-step active" data-step="1">
+             <div class="step-num">01</div>
+             <h3 class="step-title-text">DISCOVER</h3>
+             <p class="step-desc-text">AI scans 750K+ verified creators across Instagram, YouTube, and more — filtered by niche, language, audience demographics and brand affinity.</p>
+           </div>
+           <div class="scroll-step" data-step="2">
+             <div class="step-num">02</div>
+             <h3 class="step-title-text">MATCH</h3>
+             <p class="step-desc-text">Proprietary AI/ML models evaluate audience fit, engagement authenticity, content quality and fraud signals to surface the perfect creator match.</p>
+           </div>
+           <div class="scroll-step" data-step="3">
+             <div class="step-num">03</div>
+             <h3 class="step-title-text">ACTIVATE</h3>
+             <p class="step-desc-text">Streamlined onboarding, brief delivery, content approval and publishing — with full-stack integrations across all marketing tools and platforms.</p>
+           </div>
+           <div class="scroll-step" data-step="4">
+             <div class="step-num">04</div>
+             <h3 class="step-title-text">MEASURE</h3>
+             <p class="step-desc-text">Automated, data-driven decision making with real-time dashboards tracking impressions, reach, engagement, conversions and ROI.</p>
+           </div>
         </div>
       </div>
     </div>
@@ -701,15 +803,28 @@
         }
       });
 
-      // Path steps interaction
-      const pathSteps = document.querySelectorAll('.path-step');
-      pathSteps.forEach(step => {
-        // Add hover effect logic
-        step.addEventListener('mouseenter', () => {
-          pathSteps.forEach(s => s.classList.remove('active'));
-          step.classList.add('active');
-        });
-      });
+      // Path steps interaction (Scroll-driven)
+      const scrollSteps = document.querySelectorAll('.scroll-step');
+      const mockUIs = document.querySelectorAll('.mock-ui');
+      
+      if(scrollSteps.length > 0) {
+        const stepObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const stepNum = entry.target.getAttribute('data-step');
+              
+              scrollSteps.forEach(s => s.classList.remove('active'));
+              entry.target.classList.add('active');
+              
+              mockUIs.forEach(ui => ui.classList.remove('active'));
+              const targetUI = document.getElementById(`ui-${stepNum}`);
+              if(targetUI) targetUI.classList.add('active');
+            }
+          });
+        }, { threshold: 0.5, rootMargin: "0px 0px -10% 0px" });
+
+        scrollSteps.forEach(step => stepObserver.observe(step));
+      }
 
       // Services interaction
       const serviceItems = document.querySelectorAll('.service-item');
