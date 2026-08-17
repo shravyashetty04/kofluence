@@ -486,6 +486,11 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
   .btn-primary, .btn-ghost { width: 100%; justify-content: center; white-space: normal; text-align: center; }
   .hero-reels { height: 320px; transform: scale(0.8); }
   
+  /* Portfolio */
+  .pc-title { font-size: clamp(2rem, 10vw, 3rem) !important; line-height: 1.1; word-break: break-word; }
+  .pc-metrics { gap: 1.5rem; flex-wrap: wrap; }
+  .pcm-val { font-size: 2.2rem; }
+  
   .creator-grid { grid-template-columns: 1fr; }
   .footer-links { grid-template-columns: 1fr; }
   
