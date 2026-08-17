@@ -520,3 +520,48 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
   /* Timeline */
   .timeline-node { flex: 0 0 260px; }
 }
+
+/* Creator Marquee */
+.creator-marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  margin-bottom: 2rem;
+  position: relative;
+  display: flex;
+}
+.creator-marquee-container::before, .creator-marquee-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 5vw;
+  z-index: 2;
+  pointer-events: none;
+}
+.creator-marquee-container::before {
+  left: 0;
+  background: linear-gradient(to right, var(--bg) 10%, transparent);
+}
+.creator-marquee-container::after {
+  right: 0;
+  background: linear-gradient(to left, var(--bg) 10%, transparent);
+}
+.creator-marquee-row {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  width: max-content;
+  animation: marqueeScroll 30s linear infinite;
+  gap: 1.5rem;
+  padding-right: 1.5rem;
+}
+.creator-marquee-row img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--lime);
+  padding: 2px;
+}
+
