@@ -318,3 +318,20 @@ if (budgetSlider) {
 }
 
 console.log('%c🚀 Kofluence — Premium Redesign Loaded', 'color: #c8f84b; font-size: 14px; font-weight: bold;');
+
+/* ─── TIMELINE NODE HIGHLIGHT ON SCROLL ─── */
+const timelineNodes = document.querySelectorAll('.timeline-node');
+if (timelineNodes.length > 0) {
+  const timelineObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('active');
+      } else {
+        // Optional: Remove active class when scrolled out of view to re-trigger
+        // entry.target.classList.remove('active');
+      }
+    });
+  }, { threshold: 0.5, rootMargin: '0px 0px -20% 0px' });
+  
+  timelineNodes.forEach(node => timelineObserver.observe(node));
+}

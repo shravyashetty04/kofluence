@@ -327,7 +327,9 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
 .tl-line { position: absolute; left: 0; right: -2.5rem; height: 2px; background: var(--border-dark); z-index: 1; }
 .timeline-node:last-child .tl-line { display: none; }
 .tl-dot { width: 16px; height: 16px; border-radius: 50%; background: var(--black); border: 4px solid var(--bg-white); position: relative; z-index: 2; box-sizing: content-box; transition: background 0.3s; }
-.timeline-node:hover .tl-dot { background: var(--lime); }
+.timeline-node:hover .tl-dot, .timeline-node.active .tl-dot { background: var(--lime); }
+.timeline-node.active .tl-line { background: var(--lime); }
+.tl-line { transition: background 0.5s ease; }
 .tl-content { padding-right: 1rem; }
 .tl-year { font-family: var(--font); font-size: 2.5rem; font-weight: 900; letter-spacing: -0.03em; color: var(--black); margin-bottom: 0.5rem; line-height: 1; }
 .tl-desc { font-size: 0.9rem; color: var(--gray); line-height: 1.5; }
