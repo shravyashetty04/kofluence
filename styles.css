@@ -431,7 +431,8 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
 @media (max-width: 900px) {
   .path-scroll-grid { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: 1fr; }
-  .services-aside { text-align: left; }
+  .services-header { flex-direction: column; gap: 1rem; }
+  .services-aside { text-align: left; max-width: none; }
   .services-card-col { transform: translateY(0); margin-top: 2rem; }
   .why-bento { grid-template-columns: 1fr 1fr; }
   .wb-photo { grid-column: 1; grid-row: auto; min-height: 220px; }
