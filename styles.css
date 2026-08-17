@@ -46,12 +46,12 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
 .hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 4px; }
 .hamburger span { display: block; width: 22px; height: 2px; background: var(--black); border-radius: 2px; transition: var(--transition); }
 /* HERO */
-.hero { min-height: 100vh; padding: 7rem 0 0; background: var(--bg-white); display: flex; flex-direction: column; position: relative; overflow: hidden; }
-.hero-container { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; max-width: 1200px; width: 100%; margin: 0 auto; padding-top: 4rem; padding-bottom: 4rem; position: relative; z-index: 2; }
+.hero { padding: 7rem 0 0; background: var(--bg-white); display: flex; flex-direction: column; position: relative; overflow: hidden; }
+.hero-container { flex: 1; max-width: 1200px; width: 100%; margin: 0 auto; padding-bottom: 4rem; position: relative; z-index: 2; text-align: center; }
 .hero-particles { position: absolute; inset: 0; pointer-events: none; z-index: 0; overflow: hidden; }
 .particle { position: absolute; border-radius: 50%; background: var(--lime); opacity: 0.25; animation: particleFloat linear infinite; }
 @keyframes particleFloat { 0% { transform: translateY(100vh) scale(0); opacity: 0; } 10% { opacity: 0.25; } 90% { opacity: 0.08; } 100% { transform: translateY(-100px) scale(1); opacity: 0; } }
-.hero-content { text-align: left; }
+.hero-content { text-align: center; display: flex; flex-direction: column; align-items: center; }
 .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--font); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; background: var(--lime); color: var(--black); padding: 0.35rem 1rem; border-radius: 100px; margin-bottom: 2rem; }
 .eyebrow-plus { font-size: 1rem; font-weight: 900; }
 .hero-title { font-family: var(--font); font-size: clamp(2.8rem,5.5vw,5rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.04em; color: var(--black); margin-bottom: 1.25rem; }
