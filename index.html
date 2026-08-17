@@ -10,7 +10,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body style="position: relative;">
+  <!-- GLOBAL NOISE OVERLAY -->
+  <div class="noise-overlay"></div>
 
   <!-- ================= NAV ================= -->
   <nav class="navbar" id="navbar">
@@ -876,6 +878,20 @@
       }, { threshold: 0.1, rootMargin: "0px 0px -50px 0px" });
 
       document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+      // Magnetic Buttons
+      const magneticBtns = document.querySelectorAll('.btn-primary, .btn-ghost, .btn-outline, .nav-cta, .co-btn');
+      magneticBtns.forEach(btn => {
+        btn.addEventListener('mousemove', (e) => {
+          const rect = btn.getBoundingClientRect();
+          const x = e.clientX - rect.left - rect.width / 2;
+          const y = e.clientY - rect.top - rect.height / 2;
+          btn.style.transform = `translate(${x * 0.3}px, ${y * 0.3}px)`;
+        });
+        btn.addEventListener('mouseleave', () => {
+          btn.style.transform = 'translate(0px, 0px)';
+        });
+      });
 
       // Navbar scroll effect
       const navbar = document.getElementById('navbar');
