@@ -449,7 +449,9 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
 @media (max-width: 768px) {
   /* Navbar */
   .navbar { padding: 1rem; }
+  .nav-container { gap: 1rem; justify-content: space-between; }
   .nav-links { display: none; }
+  .nav-cta { display: none; }
   .hamburger { display: flex; }
   
   /* Padding */
