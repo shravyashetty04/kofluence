@@ -404,7 +404,7 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
   .why-bento { gap: 0.75rem; }
   .wb-photo, .wb-photo2 { min-height: 260px; }
   .wb-lime, .wb-dark, .wb-gray { min-height: 140px; }
-  .path-grid { gap: 2.5rem; }
+  .path-scroll-grid { gap: 2.5rem; }
   .services-grid { gap: 2rem; }
   
   /* Campaign Builder & Backers & Insights */
@@ -418,7 +418,7 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
 }
 
 @media (max-width: 900px) {
-  .path-grid { grid-template-columns: 1fr; }
+  .path-scroll-grid { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: 1fr; }
   .services-aside { text-align: left; }
   .why-bento { grid-template-columns: 1fr 1fr; }
@@ -461,6 +461,10 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
   /* Marquee */
   .brand-item { font-size: 1.2rem; padding: 0 2rem; }
   .marquee-wrapper { gap: 2rem; }
+  
+  /* Path Mockup */
+  .path-sticky-col { position: relative; top: 0; height: auto; margin-bottom: 2rem; }
+  .mock-ui-container { transform: scale(0.9); transform-origin: top center; height: 450px; }
 }
 
 @media (max-width: 480px) {
