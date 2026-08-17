@@ -1,5 +1,5 @@
 /* ===================================================
-   Nova — PREMIUM REDESIGN — SCRIPT.JS
+   Influence — PREMIUM REDESIGN — SCRIPT.JS
    =================================================== */
 
 /* ─── NAVBAR SCROLL ─── */
@@ -317,7 +317,7 @@ if (budgetSlider) {
   budgetSlider.style.background = `linear-gradient(90deg, var(--lime) ${pct}%, rgba(255,255,255,0.1) ${pct}%)`;
 }
 
-console.log('%c🚀 Nova — Premium Redesign Loaded', 'color: #c8f84b; font-size: 14px; font-weight: bold;');
+console.log('%c🚀 Influence — Premium Redesign Loaded', 'color: #c8f84b; font-size: 14px; font-weight: bold;');
 
 /* ─── TIMELINE NODE HIGHLIGHT ON SCROLL ─── */
 const timelineNodes = document.querySelectorAll('.timeline-node');
