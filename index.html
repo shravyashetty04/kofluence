@@ -682,38 +682,136 @@
     </div>
   </section>
 
+  <!-- ================= CAMPAIGN BUILDER ================= -->
+  <section class="campaign-builder" id="campaign-builder">
+    <div class="section-container">
+      <div style="text-align: center; max-width: 600px; margin: 0 auto 3rem;" class="reveal">
+        <div class="section-eyebrow lime">Interactive Planner</div>
+        <h2 class="section-title" style="font-size: 3rem; text-transform: uppercase;">BUILD YOUR<br/>NEXT CAMPAIGN.</h2>
+        <p class="section-sub" style="margin: 0 auto;">Tell us what you want to achieve and discover the kind of creator strategy you need.</p>
+      </div>
+
+      <div class="cb-dashboard reveal reveal-delay-1">
+        <div class="cb-col">
+          <div class="cb-group">
+            <div class="cb-label">GOAL</div>
+            <div class="cb-pills" id="cb-goal">
+              <button class="cb-pill active">Awareness</button>
+              <button class="cb-pill">Engagement</button>
+              <button class="cb-pill">Sales</button>
+              <button class="cb-pill">UGC</button>
+            </div>
+          </div>
+          <div class="cb-group">
+            <div class="cb-label">AUDIENCE</div>
+            <div class="cb-pills" id="cb-audience">
+              <button class="cb-pill active">Gen Z</button>
+              <button class="cb-pill">Millennials</button>
+              <button class="cb-pill">Regional</button>
+            </div>
+          </div>
+          <div class="cb-group">
+            <div class="cb-label">CATEGORY</div>
+            <div class="cb-pills" id="cb-category">
+              <button class="cb-pill active">Fashion</button>
+              <button class="cb-pill">Beauty</button>
+              <button class="cb-pill">Tech</button>
+              <button class="cb-pill">Food</button>
+              <button class="cb-pill">Lifestyle</button>
+            </div>
+          </div>
+          <div class="cb-group">
+            <div class="cb-label">ESTIMATED BUDGET</div>
+            <div class="cb-slider-wrap">
+              <input type="range" class="cb-slider" min="5" max="50" value="20" id="budgetRange">
+              <div class="cb-slider-labels">
+                <span>₹5L</span>
+                <span id="budgetDisplay" style="color: var(--lime); font-weight: 800; font-size: 1.1rem;">₹20L</span>
+                <span>₹50L+</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="cb-col cb-result">
+          <div class="cb-result-inner">
+            <div style="font-size: 0.85rem; letter-spacing: 0.1em; color: #888; margin-bottom: 2rem;">YOUR STRATEGY</div>
+            <div style="font-family: var(--font); font-size: 2.2rem; font-weight: 800; color: #fff; line-height: 1.1; margin-bottom: 2rem;" id="strategyTitle">High-Impact Gen Z Awareness</div>
+            <div class="cb-stats">
+              <div class="cb-stat">
+                <div class="cb-stat-val" id="cb-stat-creators">45+</div>
+                <div class="cb-stat-key">Creators</div>
+              </div>
+              <div class="cb-stat">
+                <div class="cb-stat-val" id="cb-stat-reach">3.2M</div>
+                <div class="cb-stat-key">Est. Reach</div>
+              </div>
+            </div>
+            <a href="https://www.kofluence.com/contact/" class="btn-primary magnetic-btn" style="width: 100%; justify-content: center; margin-top: 2rem; padding: 1rem;">GET MY CREATOR MATCH →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ================= BACKERS ================= -->
   <section class="backers" id="backers">
     <div class="section-container">
-      <div style="text-align: center; max-width: 600px; margin: 0 auto 2rem;" class="reveal">
-        <div class="section-eyebrow">Backed By</div>
-        <h2 class="section-title" style="font-size: 2.5rem;">Unicorn Founders &<br/>Industry Veterans</h2>
+      <div style="text-align: center; max-width: 600px; margin: 0 auto 3rem;" class="reveal">
+        <div class="section-eyebrow lime">Our Investors</div>
+        <h2 class="section-title" style="font-size: 3rem; text-transform: uppercase;">BACKED BY PEOPLE<br/>WHO SHAPE CULTURE.</h2>
       </div>
 
-      <div class="backers-grid reveal reveal-delay-1">
-        <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Nikhil-kamath.png" alt="Nikhil Kamath" loading="lazy" /></div>
-          <h3>Nikhil Kamath</h3><p>Co-founder<br />Zerodha &amp; True Beacon</p>
+      <div class="backers-interactive reveal reveal-delay-1">
+        <div class="bi-featured">
+          <img src="https://www.kofluence.com/wp-content/uploads/2023/03/Nikhil-kamath.png" alt="Nikhil Kamath" id="bi-main-img" loading="lazy">
+          <div class="bi-featured-info">
+            <h3 id="bi-main-name">Nikhil Kamath</h3>
+            <p id="bi-main-title">Co-founder<br/>Zerodha &amp; True Beacon</p>
+          </div>
         </div>
-        <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/karan-johar.png" alt="Karan Johar" loading="lazy" /></div>
-          <h3>Karan Johar</h3><p>Filmmaker &amp; TV Personality</p>
-        </div>
-        <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/kunal-shah.png" alt="Kunal Shah" loading="lazy" /></div>
-          <h3>Kunal Shah</h3><p>Founder<br />CRED</p>
-        </div>
-        <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Sujeet-Kumar.png" alt="Sujeet Kumar" loading="lazy" /></div>
-          <h3>Sujeet Kumar</h3><p>Co-founder<br />Udaan</p>
-        </div>
-        <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Aprameya-Radhakrishna.png" alt="Aprameya Radhakrishna" loading="lazy" /></div>
-          <h3>Aprameya Radhakrishna</h3><p>Co-founder<br />Koo</p>
-        </div>
-        <div class="backer-card">
-          <div class="backer-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/10/Apoorva-Mehta.png.webp" alt="Apoorva Mehta" loading="lazy" /></div>
-          <h3>Apoorva Mehta</h3><p>CEO<br />Dharma Productions</p>
+        <div class="bi-list">
+          <div class="bi-item active" data-img="https://www.kofluence.com/wp-content/uploads/2023/03/Nikhil-kamath.png" data-name="Nikhil Kamath" data-title="Co-founder<br/>Zerodha &amp; True Beacon">
+            <div class="bi-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Nikhil-kamath.png" alt="Nikhil Kamath"></div>
+            <div>
+              <h4>Nikhil Kamath</h4>
+              <p>Zerodha &amp; True Beacon</p>
+            </div>
+          </div>
+          <div class="bi-item" data-img="https://www.kofluence.com/wp-content/uploads/2023/03/karan-johar.png" data-name="Karan Johar" data-title="Filmmaker &amp; TV Personality">
+            <div class="bi-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/karan-johar.png" alt="Karan Johar"></div>
+            <div>
+              <h4>Karan Johar</h4>
+              <p>Dharma Productions</p>
+            </div>
+          </div>
+          <div class="bi-item" data-img="https://www.kofluence.com/wp-content/uploads/2023/03/kunal-shah.png" data-name="Kunal Shah" data-title="Founder<br/>CRED">
+            <div class="bi-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/kunal-shah.png" alt="Kunal Shah"></div>
+            <div>
+              <h4>Kunal Shah</h4>
+              <p>CRED</p>
+            </div>
+          </div>
+          <div class="bi-item" data-img="https://www.kofluence.com/wp-content/uploads/2023/03/Sujeet-Kumar.png" data-name="Sujeet Kumar" data-title="Co-founder<br/>Udaan">
+            <div class="bi-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Sujeet-Kumar.png" alt="Sujeet Kumar"></div>
+            <div>
+              <h4>Sujeet Kumar</h4>
+              <p>Udaan</p>
+            </div>
+          </div>
+          <div class="bi-item" data-img="https://www.kofluence.com/wp-content/uploads/2023/03/Aprameya-Radhakrishna.png" data-name="Aprameya Radhakrishna" data-title="Co-founder<br/>Koo">
+            <div class="bi-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/03/Aprameya-Radhakrishna.png" alt="Aprameya Radhakrishna"></div>
+            <div>
+              <h4>Aprameya Radhakrishna</h4>
+              <p>Koo</p>
+            </div>
+          </div>
+          <div class="bi-item" data-img="https://www.kofluence.com/wp-content/uploads/2023/10/Apoorva-Mehta.png.webp" data-name="Apoorva Mehta" data-title="CEO<br/>Dharma Productions">
+            <div class="bi-img-wrap"><img src="https://www.kofluence.com/wp-content/uploads/2023/10/Apoorva-Mehta.png.webp" alt="Apoorva Mehta"></div>
+            <div>
+              <h4>Apoorva Mehta</h4>
+              <p>Dharma Productions</p>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -794,6 +892,53 @@
     </div>
   </section>
 
+  <!-- ================= INSIGHTS ================= -->
+  <section class="insights" id="insights">
+    <div class="section-container">
+      <div style="text-align: left; max-width: 600px; margin-bottom: 3rem;" class="reveal">
+        <div class="section-eyebrow lime">The Editorial</div>
+        <h2 class="section-title" style="font-size: 3rem; text-transform: uppercase;">TRENDS &<br/>CULTURE.</h2>
+      </div>
+
+      <div class="insights-grid reveal reveal-delay-1">
+        <a href="#" class="in-featured">
+          <div class="in-feat-img">
+            <img src="https://images.unsplash.com/photo-1616469829581-73993eb86b02?auto=format&fit=crop&w=800&q=80" alt="Featured Insight" loading="lazy">
+          </div>
+          <div class="in-feat-content">
+            <div class="in-meta"><span>REPORT</span><span>AUG 2026</span></div>
+            <h3>The Evolution of the Creator Economy in Tier 2 & 3 India</h3>
+            <p>How regional creators are driving unprecedented engagement and changing the landscape of digital advertising.</p>
+            <div class="in-read">READ ARTICLE →</div>
+          </div>
+        </a>
+        <div class="in-list">
+          <a href="#" class="in-card">
+            <div class="in-card-img"><img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80" alt="AI in Marketing" loading="lazy"></div>
+            <div class="in-card-content">
+              <div class="in-meta"><span>AI & TECH</span></div>
+              <h4>Predictive Matching: Why AI outperforms manual creator selection by 3x.</h4>
+            </div>
+          </a>
+          <a href="#" class="in-card">
+            <div class="in-card-img"><img src="https://images.unsplash.com/photo-1601506521937-0121a7fc2a6b?auto=format&fit=crop&w=400&q=80" alt="UGC vs Glossy" loading="lazy"></div>
+            <div class="in-card-content">
+              <div class="in-meta"><span>CONTENT</span></div>
+              <h4>UGC vs. Studio: The shifting paradigm of consumer trust in 2026.</h4>
+            </div>
+          </a>
+          <a href="#" class="in-card">
+            <div class="in-card-img"><img src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?auto=format&fit=crop&w=400&q=80" alt="Performance" loading="lazy"></div>
+            <div class="in-card-content">
+              <div class="in-meta"><span>PERFORMANCE</span></div>
+              <h4>How to measure true ROI in full-funnel creator campaigns.</h4>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ================= FINALE CTA ================= -->
   <section class="finale" id="finale">
     <div class="finale-bg">
@@ -802,14 +947,14 @@
     </div>
     <div class="finale-content reveal">
       <h2 class="finale-title">
-        READY TO CREATE<br />
-        SOMETHING PEOPLE<br />
-        WANT TO TALK ABOUT?
+        YOUR NEXT CAMPAIGN<br />
+        SHOULD BE IMPOSSIBLE<br />
+        TO SCROLL PAST.
       </h2>
-      <p class="finale-sub" style="color: var(--black);">Join 500+ brands already turning influence into impact with Kofluence.</p>
+      <p class="finale-sub" style="color: var(--black); font-size: 1.2rem; font-weight: 600;">750K+ creators. One intelligent platform.</p>
       <div class="finale-actions">
-        <a href="https://www.kofluence.com/contact/" class="btn-primary btn-large magnetic" style="background: #000; color: #fff;" id="finale-cta" aria-label="Book a Demo">
-          Book a Demo
+        <a href="https://www.kofluence.com/contact/" class="btn-primary btn-large magnetic-btn" style="background: #000; color: #fff;" id="finale-cta" aria-label="Start a Campaign">
+          Start a Campaign
           <span class="btn-arrow" style="background: rgba(255,255,255,0.2);">→</span>
         </a>
       </div>
@@ -857,6 +1002,7 @@
         </div>
       </div>
     </div>
+    <div style="text-align: center; font-family: var(--font); font-size: 3rem; font-weight: 900; letter-spacing: -0.04em; margin-bottom: 2rem; color: #fff;">CREATORS × CULTURE × DATA</div>
     <div class="footer-bottom">
       <span>© 2026 Kofluence Tech Private Limited. All rights reserved.</span>
       <div class="footer-legal">
@@ -947,6 +1093,68 @@
                     behavior: 'smooth'
                 });
             }
+        });
+      });
+      // Campaign Builder Logic
+      const cbGoals = document.querySelectorAll('#cb-goal .cb-pill');
+      const cbAudiences = document.querySelectorAll('#cb-audience .cb-pill');
+      const cbCategories = document.querySelectorAll('#cb-category .cb-pill');
+      const budgetRange = document.getElementById('budgetRange');
+      const budgetDisplay = document.getElementById('budgetDisplay');
+      const strategyTitle = document.getElementById('strategyTitle');
+      const statCreators = document.getElementById('cb-stat-creators');
+      const statReach = document.getElementById('cb-stat-reach');
+
+      function updateStrategy() {
+        const activeGoal = document.querySelector('#cb-goal .cb-pill.active').textContent;
+        const activeAudience = document.querySelector('#cb-audience .cb-pill.active').textContent;
+        const activeCategory = document.querySelector('#cb-category .cb-pill.active').textContent;
+        const budget = budgetRange.value;
+        
+        budgetDisplay.textContent = `₹${budget}L`;
+        strategyTitle.textContent = `High-Impact ${activeAudience} ${activeGoal}`;
+        
+        const creators = Math.floor(budget * 2.5);
+        const reach = (budget * 0.15).toFixed(1);
+        
+        statCreators.textContent = `${creators}+`;
+        statReach.textContent = `${reach}M`;
+      }
+
+      function setupPills(pills) {
+        pills.forEach(pill => {
+          pill.addEventListener('click', () => {
+            pills.forEach(p => p.classList.remove('active'));
+            pill.classList.add('active');
+            updateStrategy();
+          });
+        });
+      }
+
+      setupPills(cbGoals);
+      setupPills(cbAudiences);
+      setupPills(cbCategories);
+      if(budgetRange) budgetRange.addEventListener('input', updateStrategy);
+
+      // Backers Interactive Logic
+      const biItems = document.querySelectorAll('.bi-item');
+      const biMainImg = document.getElementById('bi-main-img');
+      const biMainName = document.getElementById('bi-main-name');
+      const biMainTitle = document.getElementById('bi-main-title');
+
+      biItems.forEach(item => {
+        item.addEventListener('mouseenter', () => {
+          biItems.forEach(i => i.classList.remove('active'));
+          item.classList.add('active');
+          
+          biMainImg.style.opacity = '0';
+          setTimeout(() => {
+            biMainImg.src = item.getAttribute('data-img');
+            biMainImg.alt = item.getAttribute('data-name');
+            biMainName.textContent = item.getAttribute('data-name');
+            biMainTitle.innerHTML = item.getAttribute('data-title');
+            biMainImg.style.opacity = '1';
+          }, 150);
         });
       });
     });
