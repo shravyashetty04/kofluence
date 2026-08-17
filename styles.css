@@ -214,6 +214,12 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
 .service-card-body { padding: 1.5rem; }
 .service-card-body h4 { font-family: var(--font); font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
 .service-card-body p { font-size: 0.85rem; color: var(--gray); line-height: 1.6; }
+.services-card-col { position: relative; z-index: 5; transform: translateY(-4rem); }
+.sc-lime-box { background: var(--lime); padding: 2rem; border-radius: var(--radius-xl); position: relative; text-align: center; display: flex; align-items: center; justify-content: center; min-height: 160px; overflow: hidden; }
+.sc-explore-pill { position: absolute; right: 1.5rem; top: 50%; transform: translateY(-50%); background: #000; color: #fff; padding: 0.5rem 1rem; border-radius: 100px; font-family: var(--font); font-size: 0.8rem; font-weight: 700; z-index: 10; }
+.sc-icon-sparkles { width: 100px; height: 100px; object-fit: contain; transform: rotate(-5deg) translateY(20px) translateX(-20px); filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2)); }
+.sc-teal-box { background: var(--teal); padding: 2rem; border-radius: var(--radius-xl); position: relative; text-align: center; margin-top: 2rem; min-height: 160px; overflow: hidden; }
+.sc-icon-mindblown { width: 100px; height: 100px; object-fit: contain; transform: rotate(5deg) translateY(20px); filter: drop-shadow(0 10px 20px rgba(0,0,0,0.2)); }
 /* WHY BENTO */
 .why { padding: 7rem 0; background: var(--bg-white); }
 .why-bento { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin-top: 1.5rem; }
@@ -421,6 +427,7 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
   .path-scroll-grid { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: 1fr; }
   .services-aside { text-align: left; }
+  .services-card-col { transform: translateY(0); margin-top: 2rem; }
   .why-bento { grid-template-columns: 1fr 1fr; }
   .wb-photo { grid-column: 1; grid-row: auto; min-height: 220px; }
   .wb-photo2 { grid-column: 2; grid-row: auto; min-height: 220px; }
@@ -474,6 +481,10 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
   
   .creator-grid { grid-template-columns: 1fr; }
   .footer-links { grid-template-columns: 1fr; }
+  
+  .sc-lime-box, .sc-teal-box { padding: 1.5rem; min-height: 140px; }
+  .sc-explore-pill { position: relative; right: auto; top: auto; transform: none; float: right; margin-top: auto; }
+  .sc-icon-sparkles, .sc-icon-mindblown { transform: scale(0.8); }
   
   .cb-stats { flex-direction: column; gap: 1.5rem; }
   .cb-col { padding: 1.5rem; }
