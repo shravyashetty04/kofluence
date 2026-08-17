@@ -469,7 +469,7 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
 
 @media (max-width: 480px) {
   .hero-actions { flex-direction: column; width: 100%; }
-  .btn-primary, .btn-ghost { width: 100%; justify-content: center; }
+  .btn-primary, .btn-ghost { width: 100%; justify-content: center; white-space: normal; text-align: center; }
   .hero-reels { height: 320px; transform: scale(0.8); }
   
   .creator-grid { grid-template-columns: 1fr; }
