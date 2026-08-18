@@ -54,8 +54,8 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
 .hero-content { text-align: center; display: flex; flex-direction: column; align-items: center; }
 .hero-eyebrow { display: inline-flex; align-items: center; gap: 0.4rem; font-family: var(--font); font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; background: var(--lime); color: var(--black); padding: 0.35rem 1rem; border-radius: 100px; margin-bottom: 2rem; }
 .eyebrow-plus { font-size: 1rem; font-weight: 900; }
-.hero-title { font-family: var(--font); font-size: clamp(2.8rem,5.5vw,5rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.04em; color: var(--black); margin-bottom: 1.25rem; }
-.hero-subtitle { font-size: 1rem; color: var(--gray); max-width: 440px; margin-bottom: 2rem; line-height: 1.7; }
+.hero-title { font-family: var(--font); font-size: clamp(1.4rem, 4.5vw, 3.2rem); font-weight: 900; line-height: 1.05; letter-spacing: -0.04em; color: var(--black); margin-bottom: 1.25rem; }
+.hero-subtitle { font-size: 1rem; color: var(--gray); max-width: 440px; margin-bottom: 2rem; line-height: 1.7; text-align: center; text-wrap: balance; }
 .hero-actions { display: flex; align-items: center; gap: 1rem; margin-bottom: 0; }
 .trust-label { font-size: 0.78rem; color: var(--gray); font-weight: 500; }
 .trust-avatars { display: flex; }
@@ -474,7 +474,7 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
   .timeline-node:last-child .tl-line { display: none !important; }
   
   /* Typography Adjustments */
-  .hero-title { font-size: clamp(2.5rem, 8vw, 3.5rem); }
+  .hero-title { font-size: clamp(1.2rem, 4vw, 2.5rem); }
   .section-title, .trusted-header h2, .trends-header h2, .finale-title { font-size: clamp(2rem, 7vw, 2.5rem) !important; }
   
   /* Trends */
@@ -559,11 +559,10 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
 }
 
 .creator-card {
-  --h-offset: 0px;
   position: relative;
-  width: 125px;
-  height: calc(175px + var(--h-offset));
-  border-radius: 14px;
+  width: 260px;
+  height: 146px;
+  border-radius: 16px;
   overflow: hidden;
   display: inline-block;
   border: 1px solid rgba(0,0,0,0.05);
@@ -571,41 +570,18 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
   background: #f0f0f0;
 }
 
-.creator-card:nth-child(5n+1) {
-  transform: translateY(-12px);
-  --h-offset: 5px;
-}
-.creator-card:nth-child(5n+2) {
-  transform: translateY(15px);
-  --h-offset: -10px;
-}
-.creator-card:nth-child(5n+3) {
-  transform: translateY(-5px);
-  --h-offset: 0px;
-}
-.creator-card:nth-child(5n+4) {
-  transform: translateY(10px);
-  --h-offset: -5px;
-}
-.creator-card:nth-child(5n+5) {
-  transform: translateY(-18px);
-  --h-offset: 10px;
-}
-
 .creator-card img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   display: block;
-  filter: grayscale(20%) contrast(1.05);
-  transition: filter 0.4s ease, transform 0.4s ease;
+  transition: transform 0.4s ease;
 }
 
 .creator-card:hover {
   z-index: 10;
 }
 .creator-card:hover img {
-  filter: grayscale(0%) contrast(1.1);
   transform: scale(1.05);
 }
 
@@ -629,20 +605,20 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
 
 @media (max-width: 1024px) {
   .creator-card {
-    width: 110px;
-    height: calc(154px + var(--h-offset));
+    width: 220px;
+    height: 124px;
   }
 }
 
 @media (max-width: 768px) {
   .creator-card {
-    width: 95px;
-    height: calc(133px + var(--h-offset));
-    border-radius: 12px;
+    width: 180px;
+    height: 101px;
+    border-radius: 14px;
   }
   .creator-marquee-row {
-    gap: 1rem;
-    padding-right: 1rem;
+    gap: 1.5rem;
+    padding-right: 1.5rem;
   }
   .creator-marquee-container::before, .creator-marquee-container::after {
     width: 10vw;
@@ -650,8 +626,8 @@ body { font-family: var(--font-body); background: var(--bg); color: var(--black)
 }
 @media (max-width: 480px) {
   .creator-card {
-    width: 85px;
-    height: calc(119px + var(--h-offset));
+    width: 150px;
+    height: 84px;
   }
 }
 
