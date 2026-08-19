@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Influence — Premium Influencer Marketing Agency</title>
+  <title>Harsha Media — Premium Influencer Marketing Agency</title>
   <meta name="description" content="Leading influencer marketing agency in India with 750K+ creators network. Drive 10X better reach with Nano, Micro, Macro, Mega influencer to celebrity campaigns." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=3" />
 </head>
 <body style="position: relative;">
   <div class="noise-overlay"></div>
@@ -16,8 +16,9 @@
 <!-- ================= NAV ================= -->
   <nav class="navbar" id="navbar">
     <div class="nav-container">
-      <a href="index.html" class="nav-logo-wrap" id="nav-logo" aria-label="Influence Home" style="text-decoration: none;">
-        <div class="logo-text" style="font-family: var(--font); font-size: 1.5rem; font-weight: 900; letter-spacing: -0.05em; color: var(--black);">INFLUENCE<span style="color: var(--lime);">.</span></div>
+      <a href="index.html" class="nav-logo-wrap" id="nav-logo" aria-label="Harsha Media Home" style="text-decoration: none; display: flex; align-items: center;">
+        <img src="harsha_logo.png" alt="Harsha Media Logo" style="height: 80px; margin: -15px 0; mix-blend-mode: multiply;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+        <div class="logo-text" style="display:none; font-family: var(--font); font-size: 1.5rem; font-weight: 900; letter-spacing: -0.05em; color: var(--black);">HARSHA MEDIA</div>
       </a>
       <ul class="nav-links" id="nav-links">
         <li><a href="about.html">About Us</a></li>
@@ -45,35 +46,47 @@
       </p>
     </div>
     
-    <!-- Brands Marquee -->
-    <div class="impact-marquee-container" style="margin-bottom: 4rem;">
-      <div class="impact-marquee-row">
-        <div class="impact-card" style="width: 300px; height: 150px; display: flex; align-items: center; justify-content: center;">
-          <h3 style="font-size: 2rem; color: var(--gray);">BRAND ONE</h3>
-        </div>
-        <div class="impact-card" style="width: 300px; height: 150px; display: flex; align-items: center; justify-content: center;">
-          <h3 style="font-size: 2rem; color: var(--gray);">BRAND TWO</h3>
-        </div>
-        <div class="impact-card" style="width: 300px; height: 150px; display: flex; align-items: center; justify-content: center;">
-          <h3 style="font-size: 2rem; color: var(--gray);">BRAND THREE</h3>
-        </div>
-        <div class="impact-card" style="width: 300px; height: 150px; display: flex; align-items: center; justify-content: center;">
-          <h3 style="font-size: 2rem; color: var(--gray);">BRAND FOUR</h3>
-        </div>
-        
+    <!-- Brands Marquee Line 1 -->
+    <div class="impact-marquee-container" style="margin-bottom: 1rem; padding-bottom: 0;">
+      <div class="impact-marquee-row" style="animation: marqueeScroll 35s linear infinite;">
+        <!-- Line 1: Meesho, Amrithnoni, Purpple, Sugarfit, Millex, Healthfab, Nxtwave -->
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://meesho.com&size=128" alt="Meesho" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Meesho</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://amrithnoni.com&size=128" alt="Amrithnoni" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Amrithnoni</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://purplle.com&size=128" alt="Purpple" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Purpple</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://sugarfit.com&size=128" alt="Sugarfit" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Sugarfit</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="millex_logo.png" alt="Millex" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Millex</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://healthfab.in&size=128" alt="Healthfab" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Healthfab</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="nxtwave_logo.png" alt="Nxtwave" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Nxtwave</h3></div>
         <!-- Duplicates -->
-        <div class="impact-card" style="width: 300px; height: 150px; display: flex; align-items: center; justify-content: center;">
-          <h3 style="font-size: 2rem; color: var(--gray);">BRAND ONE</h3>
-        </div>
-        <div class="impact-card" style="width: 300px; height: 150px; display: flex; align-items: center; justify-content: center;">
-          <h3 style="font-size: 2rem; color: var(--gray);">BRAND TWO</h3>
-        </div>
-        <div class="impact-card" style="width: 300px; height: 150px; display: flex; align-items: center; justify-content: center;">
-          <h3 style="font-size: 2rem; color: var(--gray);">BRAND THREE</h3>
-        </div>
-        <div class="impact-card" style="width: 300px; height: 150px; display: flex; align-items: center; justify-content: center;">
-          <h3 style="font-size: 2rem; color: var(--gray);">BRAND FOUR</h3>
-        </div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://meesho.com&size=128" alt="Meesho" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Meesho</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://amrithnoni.com&size=128" alt="Amrithnoni" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Amrithnoni</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://purplle.com&size=128" alt="Purpple" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Purpple</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://sugarfit.com&size=128" alt="Sugarfit" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Sugarfit</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="millex_logo.png" alt="Millex" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Millex</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://healthfab.in&size=128" alt="Healthfab" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Healthfab</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="nxtwave_logo.png" alt="Nxtwave" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Nxtwave</h3></div>
+      </div>
+    </div>
+
+    <!-- Brands Marquee Line 2 -->
+    <div class="impact-marquee-container" style="margin-top: 0; margin-bottom: 4rem;">
+      <div class="impact-marquee-row" style="animation: marqueeScrollReverse 40s linear infinite;">
+        <!-- Line 2: Curskin, Mylo, Beco, Philips avent, Garbagudi, Coindcx, Strex -->
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://cureskin.com&size=128" alt="Curskin" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Curskin</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://mylofamily.com&size=128" alt="Mylo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Mylo</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://letsbeco.com&size=128" alt="Beco" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Beco</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://philips.com&size=128" alt="Philips avent" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Philips avent</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://garbhagudi.com&size=128" alt="Garbagudi" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Garbagudi</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://coindcx.com&size=128" alt="Coindcx" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Coindcx</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="streax_logo.jpg" alt="Strex" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Strex</h3></div>
+        <!-- Duplicates -->
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://cureskin.com&size=128" alt="Curskin" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Curskin</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://mylofamily.com&size=128" alt="Mylo" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Mylo</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://letsbeco.com&size=128" alt="Beco" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Beco</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://philips.com&size=128" alt="Philips avent" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Philips avent</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://garbhagudi.com&size=128" alt="Garbagudi" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Garbagudi</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=http://coindcx.com&size=128" alt="Coindcx" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Coindcx</h3></div>
+        <div class="impact-card" style="width: 260px; height: 130px; display: flex; align-items: center; justify-content: center; background: #fff; box-shadow: var(--shadow-sm);"><img src="streax_logo.jpg" alt="Strex" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" style="max-width: 160px; max-height: 80px; object-fit: contain;" /><h3 style="display:none; font-size: 1.5rem; color: var(--black);">Strex</h3></div>
       </div>
     </div>
   </section>
@@ -83,18 +96,19 @@
   <footer class="footer" id="footer">
     <div class="footer-container">
       <div class="footer-brand">
-        <a href="#" class="footer-logo-wrap" aria-label="Influence Home" style="text-decoration: none;">
-          <div class="logo-text" style="font-family: var(--font); font-size: 2rem; font-weight: 900; letter-spacing: -0.05em; color: #fff;">INFLUENCE<span style="color: var(--lime);">.</span></div>
-          <span class="footer-logo-text" style="display:none;">Influence</span>
+        <a href="#" class="footer-logo-wrap" aria-label="Harsha Media Home" style="text-decoration: none;">
+          <img src="harsha_logo.png" alt="Harsha Media Logo" style="height: 140px; background-color: white; border-radius: 12px; padding: 5px; margin: -20px 0;" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';" />
+          <div class="logo-text" style="display:none; font-family: var(--font); font-size: 2rem; font-weight: 900; letter-spacing: -0.05em; color: #fff;">HARSHA MEDIA</div>
+          <span class="footer-logo-text" style="display:none;">Harsha Media</span>
         </a>
         <p class="footer-tagline">AI-powered creator marketing.<br />Where brands meet culture.<br /><br />
         <small>Ground Floor, Vaishnavi Tech Park,<br />Bengaluru, Karnataka 560102</small></p>
-        <p class="footer-email"><a href="mailto:hi@influence.com" style="color: var(--lime);">hi@influence.com</a> &nbsp;|&nbsp; <a href="tel:+18005550199" style="color: #fff; text-decoration: none;">+1 800 555 0199</a></p>
+        <p class="footer-email"><a href="mailto:hi@harshamedia.com" style="color: var(--lime);">hi@harshamedia.com</a> &nbsp;|&nbsp; <a href="tel:+18005550199" style="color: #fff; text-decoration: none;">+1 800 555 0199</a></p>
       </div>
     </div>
     <div style="text-align: center; font-family: var(--font); font-size: 3rem; font-weight: 900; letter-spacing: -0.04em; margin-bottom: 2rem; color: #fff;">CREATORS × CULTURE × DATA</div>
     <div class="footer-bottom">
-      <span>© 2026 Influence Tech Private Limited. All rights reserved.</span>
+      <span>© 2026 Harsha Media Private Limited. All rights reserved.</span>
       <div class="footer-legal">
         <a href="#">Privacy Policy</a>
         <a href="#">Terms of Service</a>
